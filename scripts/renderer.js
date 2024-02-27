@@ -134,14 +134,14 @@ class Renderer {
 
         // Second polygon
         let polygon2 = [
-            { x: 400, y: 500 },
-            { x: 350, y: 400 },
-            { x: 370, y: 350 },
-            { x: 500, y: 150 },
-            { x: 550, y: 160 },
-            { x: 540, y: 300 },
-            { x: 620, y: 330 },
-            { x: 575, y: 450 }
+            { x: 220, y: 200 },
+            { x: 250, y: 210 },
+            { x: 280, y: 220 },
+            { x: 300, y: 240 },
+            { x: 280, y: 260 },
+            { x: 250, y: 270 },
+            { x: 220, y: 260 },
+            { x: 200, y: 230 }
         ];
         let polygon2Color = [0, 0, 255, 127];
         this.drawConvexPolygon(polygon2, polygon2Color, framebuffer);
