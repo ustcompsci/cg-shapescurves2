@@ -159,6 +159,7 @@ class Renderer {
         // TODO: draw your name!
         //   - variable `this.num_curve_sections` should be used for `num_edges`
         //   - variable `this.show_points` should be used to determine whether or not to render vertices
+        
         let color = [255, 0, 0, 255];
 
         // 'A'
